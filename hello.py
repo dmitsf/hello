@@ -21,6 +21,9 @@ for x in range(1, 10000):
 
 writer.close()
 
+# get memory error here:
+t = 'a' * 10**15
+
 # get exception here:
 t = 1 / 0
 
