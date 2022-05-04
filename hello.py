@@ -21,6 +21,9 @@ for x in range(1, 10000):
 
 writer.close()
 
+# get exception here:
+t = 1 / 0
+
 # print data if available
 if args.data is not None:
     files = list(os.walk(args.data))
